@@ -1,0 +1,202 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: hsl(261, 35%, 32%);
+}
+ul { list-style: none; padding-left: 5px; }
+a { color:blue; text-decoration: none;}
+.bar {
+    background-color: #b804ff48;
+    padding:15px;
+    border-top: solid 1px #b908ff75;
+    border-bottom: solid 1px  #b908ff75;
+}
+.content {
+    max-width: 1440px;
+    margin: auto;
+    grid-gap: 3rem;
+    display: grid;
+    gap: 3rem;
+    grid-template-areas: "sidebar main anchors";
+    grid-template-columns: minmax(0,15rem) minmax(0,2.5fr) minmax(0,15rem);
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.footer {
+    min-height: 100px;
+    border-top: solid 1px #252525;
+}
+.anchors {
+    border-left: solid 1px #06014d;
+    padding-left: 15px;
+       position: sticky;
+  top: 20px; /* distância do topo da tela */
+  align-self: flex-start;
+ 
+}
+.sidebar {
+    border-right: solid 1px #34005f;
+        position: sticky;
+  top: 20px; /* distância do topo da tela */
+  align-self: flex-start;
+}
+figure {
+    text-align: center;
+}
+
+.furry{
+}
+
+#furro{
+    width: 300px;
+
+}
+
+
+#dig{
+    width: 300px;
+    border: solid 1px;
+    margin: 1em;
+    float: right;
+    padding: 10px;
+   text-align: center;
+ 
+}
+
+figcaption{
+ display: flex; 
+}
+
+#furrozinhos{
+    width: 250px;
+    border: solid 1px;
+    float: left;
+    margin-left: -30px;
+    padding: 10px;
+    text-align: center;
+}
+
+#futher{
+      width: 250px;
+    border: solid 1px;
+    float: right;
+    margin-left: px;
+    padding: 10px;
+    text-align: center;  
+}
+
+p,figcaption{
+    color: rgb(255, 255, 255);
+}
+
+#furry{
+     width: 250px;
+    border: solid 1px;
+    float: right;
+    margin-left: px;
+    padding: 10px;
+    text-align: center;  
+    
+}
+
+ul :hover{
+color: rgb(235, 66, 235);
+}
+li{
+    color: white;
+}
+
+#yiff{
+      width: 250px;
+    border: solid 1px;
+    float: right;
+    margin-left: px;
+    padding: 10px;
+    text-align: center;  
+}
+h2, h1{
+   background: linear-gradient(190deg, rgb(255, 0, 0),  rgb(255, 2, 234),rgba(0, 255, 0, 0.932));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#furruzinhos{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#furrus{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#furros2{
+      display: flex;
+    align-items: right;
+    justify-content: right;
+    right: 40px;
+}
+
+#furrysin{
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    right: 40px;
+}  
+#furry3{
+      display: flex;
+    align-items: right;
+    justify-content: right;
+}
+
+#furryverde4{
+    width: 170px;
+    height: 170px;
+    display: flex;
+    align-items: right;
+    justify-content: right;
+  
+   
+}
+#furryfloresta5{
+    display: flex;
+    align-items: right;
+    justify-content: right;
+}
+
+#blues{
+    width: 170px;
+    height: 170px;
+    display: flex;
+    align-items: right;
+    justify-content: right;
+}
+a {
+  color: rgb(0, 247, 255);
+}
+
+footer{
+    background-color: #34005f75;
+
+}
+
+footer h3{
+    color: #7602d4;
+}
+
+footer a{
+    color: rgb(153, 0, 255)
+}
+
+#direc{
+    align-items:center ;
+    justify-content: center;
+    display: flex;
+    
+}
+
+#icons{
+    width: 30px;
+}
